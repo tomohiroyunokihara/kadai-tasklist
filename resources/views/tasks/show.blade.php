@@ -2,10 +2,6 @@
 
 @section('content')
 
-
-<div class='row'>
-<div  class= "col-xs-12 col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
-
     <h1>id = {{ $task->id }} のタスク詳細ページ</h1>
 
     <table class="table table-bordered">
@@ -29,7 +25,6 @@
         {!! Form::submit('削除', ['class' => 'btn btn-danger']) !!}
     {!! Form::close() !!}
 
-</div>
-</div>
+
 
 @endsection
